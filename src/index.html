@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Include Google Fonts for League Spartan -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles */
+        body, html {
+            height: 100%;
+            margin: 0;
+            background: #6693A0; /* Darkest color as the base */
+        }
+        .background-layer {
+            position: absolute;
+            left: 50%;
+            top: 0;
+            bottom: 0;
+            transform: translateX(-50%);
+            z-index: 1;
+        }
+        .layer-middle {
+            width: 92%;
+            background-color: #70999C; /* Medium color */
+            box-shadow: 0 0 70px rgba(0, 0, 0, 0.6);
+            z-index: 2;
+        }
+        .layer-front {
+            width: 86%;
+            background-color: #8EAFA3; /* Lightest color */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+            z-index: 3;
+        }
+        .grainy-texture-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('resources/image-from-rawpixel-id-12504330-png.png') center/cover no-repeat fixed;
+            opacity: 0.3;
+            z-index: 4;
+        }
+        .main-content {
+            position: relative;
+            z-index: 5;
+            padding: 4rem;
+        }
+        /* Navbar specific styles */
+        .nav-item {
+            font-family: 'League Spartan', sans-serif;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            color: #FFF9EF; /* Default color */
+            transition: text-shadow 150ms ease-in-out; /* Smooth shadow transition on hover */
+        }
+        .nav-item:hover {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Slight shadow below text on hover */
+        }
+        
+        .rotate-20-ccw {
+            transform: rotate(-20deg);
+            filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.2));
+        }
+        .navbar-container {
+        margin-left: 15rem;
+        margin-right: 14rem;
+        padding-top: 4rem;
+        z-index: 5; /* Set the z-index to 5 */
+        position: relative; /* z-index only works on positioned elements (not static) */
+        }
+    </style>
+</head>
+<body>
+    <!-- Include the navbar directly -->
+    <div class="navbar-container">
+        <nav class="flex items-center justify-between py-2">
+            <div class="flex items-center">
+                <img src="resources/moon.png" alt="Logo" class="mr-2 h-16 rotate-20-ccw">
+            </div>
+            <div class="flex">
+                <a href="index.html" class="nav-item px-4 py-2 text-lg hover:bg-transparent">Home</a>
+                <a href="about.html" class="nav-item px-4 py-2 text-lg hover:bg-transparent">About</a>
+                <a href="sketch.html" class="nav-item px-4 py-2 text-lg hover:bg-transparent">Sketch</a>
+                <a href="gallery.html" class="nav-item px-4 py-2 text-lg hover:bg-transparent">Gallery</a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Texture overlay -->
+    <div class="grainy-texture-overlay"></div>
+
+    <!-- Background layers -->
+    <div class="background-layer layer-middle"></div>
+    <div class="background-layer layer-front"></div>
+
+    <!-- Main content container -->
+    <div class="main-content">
+        <h1 class="text-3xl font-bold underline">
+            
+        </h1>
+        <!-- Additional content here -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Include Google Fonts for League Spartan -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+    <!-- Custom styles -->
+    <style>
+        /* Apply the font family to the navbar items */
+        .nav-item {
+            font-family: 'League Spartan', sans-serif;
+            padding-left: 2rem; /* Increase the distance between menu items */
+            padding-right: 2rem;
+        }
+        /* Rotate the logo image */
+        .rotate-20-ccw {
+            transform: rotate(-20deg);
+        }
+        .mar {
+            margin-left: 10rem;
+            margin-right: 10rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar-container mar mt-10">
+        <!-- Navbar content -->
+        <nav class="flex items-center justify-between px-4 py-2">
+            <!-- Logo and Title -->
+            <div class="flex items-center">
+                <img src="resources/moon.png" alt="Logo" class="mr-2 h-14 rotate-20-ccw"> <!-- Logo -->
+            </div>
+
+            <!-- Menu Links -->
+            <div class="flex">
+                <a href="index.html" class="nav-item px-4 py-2 text-lg">Home</a>
+                <a href="about.html" class="nav-item px-4 py-2 text-lg">About</a>
+                <a href="draw.html" class="nav-item px-4 py-2 text-lg">Draw</a>
+                <a href="gallery.html" class="nav-item px-4 py-2 text-lg">Gallery</a>
+            </div>
+        </nav>
+    </div>
+</body>
+</html>
