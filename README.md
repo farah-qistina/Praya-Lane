@@ -8,9 +8,9 @@
 
 
 Edwin Sim, former resident of Praya Lane in the 1960s - 1970s recalled... 
-“...the time when the sky turned red over the kampung (village) and everyone came out to bang on their gongs and cookery to prevent the dragon from swallowing the sun. 
-# Sketch the scene of the village under a red sky, with everyone rushing out of their homes banging gongs and cookware.
-Many decades later when researcing paths of typhoon in the South China Sea, I stumbled upon records of a typhoon that passed through the Straits of Malacca around the same time. I think that was what made the sky turn red in 1971.”
+“...the time when the sky turned red over the kampung (village) and everyone came out to bang on their gongs and cookery to prevent the dragon from swallowing the sun. \
+Sketch the scene of the village under a red sky, with everyone rushing out of their homes banging gongs and cookware. \
+Many decades later when researching paths of typhoon in the South China Sea, I stumbled upon records of a typhoon that passed through the Straits of Malacca around the same time. I think that was what made the sky turn red in 1971.”
 -Finish-
 
 Evelyn Lowe shared about Intrudu (introduction to a new season) or also known as Water Day - celebrated on the last Sunday before Ash Wednesday where people would celebrate this day throwing water at each other. The whole village participated. And in return each has to give them a sip of brandy to drink to warm their bodies. Cakes will be sold. And later in the evening branyo rudia is performed where they would go around singing kristang songs in the neighbourhood.
